@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <header>
+        <a href="#popap" class="header-popap popap-link"></a>
+    </header>
+    <body> 
+      <div id="fixed-conteiner"> 
+          <div id="dark-box"> 
+              <h1>Guess the number from 0 to 100</h1>
+                 <div id="box">
+                    <p id="left">Less</p>
+                  
+                    <p id="right">More</p>
+                 </div>
+                 <input id="form" type="text">
+              <button id="but" onclick="getRandom();">TRY</button>
+          </div> 
+      </div> 
+        <div class="button">
+        </div>
+
+      <div id="popap">
+          <div id="popap-body">
+              <div id="popap-content">
+                  
+                    <div id="popap-title">Hello User</div>
+                        <div id="popap-text">
+                                Ты находишься в разработанной мною игрой на чистом JS<br/>
+                                Ближайшее время предлагаю тебя отвлечся и сделать свой день чуть интерактивнее.
+                                Думаю ты знаешь правила.<br/> Приятного время припровождения!    
+                            </p>
+                         </div> 
+                        <div id="popap-close">OK</div>
+                 </div>
+            </div>
+        </div>
+       
+      <div id="win">
+        <div id="win-body">
+            <div id="win-content">
+                <div id="win-return">Restart?</div>
+                  <div id="win-title">YOU WIN!</div>
+                      <div id="win-text">
+                              <p>Поздравляю</p>
+                       </div> 
+                  </div>
+            </div>
+        </div>
+
+        <div id="loss">
+        <div id="loss-body">
+            <div id="loss-content">
+                <div id="loss-close">Restart</div>
+                  <div id="loss-title">YOU LOSS!</div>
+                      <div id="loss-text">
+                              <p> Попытайся еще</p>
+                       </div> 
+                  </div>
+            </div>
+        </div>
+        <script src="script.js"></script> 
+      
+    </body> 
+</html>
